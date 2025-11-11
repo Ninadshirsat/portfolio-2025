@@ -244,7 +244,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const CONTACT_INFO = [
-  { icon: MapPin, label: "Location", Vaule: "Mumbai, MH" },
-  { icon: Mail, label: "Email", Vaule: "ninadshirsat12@gmail.com" },
-  { icon: Phone, label: "Phone", Vaule: "+91-9969816673" },
+  { icon: MapPin, label: "Location", value: "Mumbai, MH" },
+  { icon: Mail, label: "Email", value: "ninadshirsat12@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+91-9969816673" },
 ];
