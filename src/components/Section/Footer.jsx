@@ -47,8 +47,15 @@ const Footer = () => {
   //     },
   //   ];
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
+
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   //Animated Gradient Line Component
@@ -229,7 +236,7 @@ const Footer = () => {
             {/* Back to Top Button */}
             <motion.div variants={itemVariants}>
               <motion.button
-                onClick={scrollToTop}
+                onClick={() => scrollToSection("home")}
                 className={`inline-flex items-center space-x-4 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   isDarkMode
                     ? "bg-gray-800/50 hover:bg-gray-700/50 text-gray-400 hover:text-white border-gray-700"

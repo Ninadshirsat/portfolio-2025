@@ -11,6 +11,7 @@ import {
   Mail,
   MapPin,
   Phone,
+  Brain,
 } from "lucide-react";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
@@ -182,7 +183,7 @@ export const PROJECTS = [
 export const JOURNEY_STAT = [
   {
     year: 2020,
-    title: "Started frontend Development",
+    title: "Started Frontend Development",
     company: "Self Taught",
     description: "Begin Learning web development with javascript, HTML5, CSS",
     icon: Code2,
@@ -191,16 +192,16 @@ export const JOURNEY_STAT = [
   {
     year: 2021,
     title: "First internship",
-    company: "Self Taught",
-    description: "Begin Learning web development with javascript, HTML5, CSS",
+    company: "Urban Estate Agent",
+    description: "Developed a website for a Estate agency",
     icon: Briefcase,
     color: "bg-green-500",
   },
   {
     year: 2022,
-    title: "Computer Science Degree",
+    title: "Computer Science Bachelors Degree",
     company: "University of Mumbai",
-    description: "Begin Learning web development with javascript, HTML5, CSS",
+    description: "Completed my Bachelors degree in Computer Engineering",
     icon: GraduationCap,
     color: "bg-indigo-500",
   },
@@ -208,9 +209,26 @@ export const JOURNEY_STAT = [
     year: 2023,
     title: "Full Stack Developer",
     company: "Zeo Fin Ltd. (Jify)",
-    description: "Begin Learning web development with javascript, HTML5, CSS",
+    description: "Worked as a part of development team in a Fintech Startup",
     icon: Rocket,
+    color: "bg-red-500",
+  },
+  {
+    year: 2024,
+    title: "Software Engineering Trainee",
+    company: "DELL Technology",
+    description: "Begin Learning web development with javascript, HTML5, CSS",
+    icon: Brain,
     color: "bg-orange-500",
+  },
+  {
+    year: 2025,
+    title: "Masters in Computer Science",
+    company: "Veermata Jijabai Technological Institute",
+    description:
+      "Completed my Masters degree in Computer Engineering specialisation in software engineering",
+    icon: GraduationCap,
+    color: "bg-indigo-500",
   },
 ];
 
