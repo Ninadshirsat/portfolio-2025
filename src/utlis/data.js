@@ -14,8 +14,16 @@ import {
 } from "lucide-react";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
+import PROJECT_IMG_0 from "../assets/images/project-0.png";
 import PROJECT_IMG_1 from "../assets/images/project-1.png";
 import PROJECT_IMG_2 from "../assets/images/project-2.png";
+import PROJECT_IMG_3 from "../assets/images/project-3.png";
+import PROJECT_IMG_4 from "../assets/images/project-4.png";
+import PROJECT_IMG_5 from "../assets/images/project-5.png";
+import PROJECT_IMG_6 from "../assets/images/project-6.png";
+// import PROJECT_IMG_7 from "../assets/images/project-7.png";
+import PROJECT_IMG_8 from "../assets/images/project-8.png";
+// import PROJECT_IMG_9 from "../assets/images/project-9.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -71,9 +79,76 @@ export const STATS = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "Idea Drop",
-    description: "Simple Website to store multiple ideas",
+    title: "Notes-App Using MERN",
+    description: "Notes-App to store multiple notes",
     image: PROJECT_IMG_1,
+    tags: ["React", "Tailwindcss", "MongoDB"],
+    liveUrl: "https://mern-notesapp-ysu9.onrender.com/",
+    githubUrl: "https://github.com/Ninadshirsat/mern-notesapp",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 2,
+    title: "Notes App",
+    description:
+      "Simple Website to store multiple notes works on the UI with localstorage",
+    image: PROJECT_IMG_2,
+    tags: ["React", "Vite", "LocalStorage"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Ninadshirsat/notes-app_frontend",
+    featured: false,
+    category: "Front-End",
+  },
+  {
+    id: 3,
+    title: "Star Ratings-UI",
+    description: "UI to show Star-ratings",
+    image: PROJECT_IMG_3,
+    tags: ["React", "Vite"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Ninadshirsat/star-ratings",
+    featured: false,
+    category: "Front-End",
+  },
+  {
+    id: 4,
+    title: "Simple Timer",
+    description: "Simple Website to Start, Pause & Reset the timer",
+    image: PROJECT_IMG_4,
+    tags: ["React", "Vite"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Ninadshirsat/simple-timer",
+    featured: false,
+    category: "Front-End",
+  },
+  {
+    id: 5,
+    title: "Shopping-Cart",
+    description: "Simple Website to store multiple ideas",
+    image: PROJECT_IMG_5,
+    tags: ["React", "JSON-Server", "Tailwindcss"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Ninadshirsat/shopping-cart-ui",
+    featured: false,
+    category: "Front-End",
+  },
+  {
+    id: 6,
+    title: "Crypto-Dash",
+    description: "Website to browse through multiple crypto-currencies",
+    image: PROJECT_IMG_6,
+    tags: ["React", "React-Router", "Vite"],
+    liveUrl: "https://crypto-dash-smoky.vercel.app/",
+    githubUrl: "https://github.com/Ninadshirsat/crypto-dash",
+    featured: true,
+    category: "Front-End",
+  },
+  {
+    id: 7,
+    title: "Friendly-Dev-Portfolio-Website",
+    description: "Simple Website to store multiple ideas",
+    image: PROJECT_IMG_0,
     tags: ["React", "Tanstack-Query", "MongoDB"],
     liveUrl: "#",
     githubUrl: "#",
@@ -81,82 +156,27 @@ export const PROJECTS = [
     category: "Full Stack",
   },
   {
-    id: 2,
-    title: "Simple Counter",
+    id: 8,
+    title: "Github-Finder",
+    description: "Website to search Github-Users",
+    image: PROJECT_IMG_8,
+    tags: ["React", "Tanstack-Query"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Ninadshirsat/github-finder-tanstack-query",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
+    id: 9,
+    title: "Idea Drop",
     description: "Simple Website to store multiple ideas",
-    image: PROJECT_IMG_2,
+    image: PROJECT_IMG_0,
     tags: ["React", "Tanstack-Query", "MongoDB"],
     liveUrl: "#",
     githubUrl: "#",
     featured: true,
     category: "Full Stack",
   },
-  //   {
-  //     id: 3,
-  //     title: "Idea Drop",
-  //     description: "Simple Website to store multiple ideas",
-  //     image: PROJECT_IMG_1,
-  //     tags: ["React", "Tanstack-Query", "MongoDB"],
-  //     liveUrl: "#",
-  //     githubUrl: "#",
-  //     featured: false,
-  //     category: "full stack",
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Idea Drop",
-  //     description: "Simple Website to store multiple ideas",
-  //     image: PROJECT_IMG_1,
-  //     tags: ["React", "Tanstack-Query", "MongoDB"],
-  //     liveUrl: "#",
-  //     githubUrl: "#",
-  //     featured: false,
-  //     category: "full stack",
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Idea Drop",
-  //     description: "Simple Website to store multiple ideas",
-  //     image: PROJECT_IMG_1,
-  //     tags: ["React", "Tanstack-Query", "MongoDB"],
-  //     liveUrl: "#",
-  //     githubUrl: "#",
-  //     featured: false,
-  //     category: "full stack",
-  //   },
-  //   {
-  //     id: 6,
-  //     title: "Idea Drop",
-  //     description: "Simple Website to store multiple ideas",
-  //     image: PROJECT_IMG_1,
-  //     tags: ["React", "Tanstack-Query", "MongoDB"],
-  //     liveUrl: "#",
-  //     githubUrl: "#",
-  //     featured: false,
-  //     category: "full stack",
-  //   },
-  //   {
-  //     id: 7,
-  //     title: "Idea Drop",
-  //     description: "Simple Website to store multiple ideas",
-  //     image: PROJECT_IMG_1,
-  //     tags: ["React", "Tanstack-Query", "MongoDB"],
-  //     liveUrl: "#",
-  //     githubUrl: "#",
-  //     featured: false,
-  //     category: "full stack",
-  //   },
-  //   {
-  //     id: 8,
-  //     title: "Idea Drop",
-  //     description: "Simple Website to store multiple ideas",
-  //     image: PROJECT_IMG_1,
-  //     tags: ["React", "Tanstack-Query", "MongoDB"],
-  //     liveUrl: "#",
-  //     githubUrl: "#",
-  //     featured: false,
-  //     category: "full stack",
-  //   },
 ];
 
 export const JOURNEY_STAT = [

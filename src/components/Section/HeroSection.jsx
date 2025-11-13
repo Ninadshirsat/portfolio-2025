@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { ArrowDown, Mail } from "lucide-react";
 import { itemVariants, containerVariants } from "../../utlis/helper.js";
 
-import PROFILE_IMG from "../../assets/images/profile-img.png";
+import PROFILE_IMG from "../../assets/images/profile-photo.jpg";
 const HeroSection = () => {
   const { isDarkMode } = useTheme();
 

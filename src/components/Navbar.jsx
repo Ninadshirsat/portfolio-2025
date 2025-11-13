@@ -18,13 +18,13 @@ const Navbar = () => {
   return (
     <motion.nav
       style={{ opacity: 1 }}
-      className={`fixed top-0 w-full z-50 px-6 py-4 ${
+      className={`fixed top-0 w-full z-50 py-4 ${
         isDarkMode ? "bg-gray-950/80" : "bg-gray-50/80"
       } backdrop-blur-md border-b ${
         isDarkMode ? "border-gray-800" : "border-gray-200"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center">
+      <div className="w-full px-4 sm:px-6 lg:px-12 flex flex-wrap justify-between items-center">
         <motion.div
           whileHover={{ scale: 0.95 }}
           className="flex items-center space-x-2"
@@ -37,7 +37,7 @@ const Navbar = () => {
                 : "text-gray-600 hover:text-gray-900"
             }`}
           >
-            Time to Program
+            Ninad Shirsat
           </span>
         </motion.div>
 
