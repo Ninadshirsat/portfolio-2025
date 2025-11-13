@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
-import PROJECT_IMG_0 from "../assets/images/project-0.png";
+// import PROJECT_IMG_0 from "../assets/images/project-0.png";
 import PROJECT_IMG_1 from "../assets/images/project-1.png";
 import PROJECT_IMG_2 from "../assets/images/project-2.png";
 import PROJECT_IMG_3 from "../assets/images/project-3.png";
@@ -145,17 +145,17 @@ export const PROJECTS = [
     featured: true,
     category: "Front-End",
   },
-  {
-    id: 7,
-    title: "Friendly-Dev-Portfolio-Website",
-    description: "Simple Website to store multiple ideas",
-    image: PROJECT_IMG_0,
-    tags: ["React", "Tanstack-Query", "MongoDB"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: false,
-    category: "Full Stack",
-  },
+  // {
+  //   id: 7,
+  //   title: "Friendly-Dev-Portfolio-Website",
+  //   description: "Simple Website to store multiple ideas",
+  //   image: PROJECT_IMG_0,
+  //   tags: ["React", "Tanstack-Query", "MongoDB"],
+  //   liveUrl: "#",
+  //   githubUrl: "#",
+  //   featured: false,
+  //   category: "Full Stack",
+  // },
   {
     id: 8,
     title: "Github-Finder",
@@ -167,17 +167,17 @@ export const PROJECTS = [
     featured: false,
     category: "Full Stack",
   },
-  {
-    id: 9,
-    title: "Idea Drop",
-    description: "Simple Website to store multiple ideas",
-    image: PROJECT_IMG_0,
-    tags: ["React", "Tanstack-Query", "MongoDB"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: true,
-    category: "Full Stack",
-  },
+  // {
+  //   id: 9,
+  //   title: "Idea Drop",
+  //   description: "Simple Website to store multiple ideas",
+  //   image: PROJECT_IMG_0,
+  //   tags: ["React", "Tanstack-Query", "MongoDB"],
+  //   liveUrl: "#",
+  //   githubUrl: "#",
+  //   featured: true,
+  //   category: "Full Stack",
+  // },
 ];
 
 export const JOURNEY_STAT = [
@@ -261,14 +261,14 @@ export const SOCIAL_LINKS = [
   {
     name: "LinkedIn",
     icon: FiLinkedin,
-    url: "https://github.com/Ninadshirsat",
+    url: "https://www.linkedin.com/in/ninad-shirsat-177656201/",
     color: "hover: text-sky-400",
     bgColor: "hover: bg-sky-500/10",
   },
   {
     name: "Twitter",
     icon: FiTwitter,
-    url: "https://github.com/Ninadshirsat",
+    url: "https://x.com/ninad_rajan",
     color: "hover: text-blue-400",
     bgColor: "hover: bg-blue-500/10",
   },
