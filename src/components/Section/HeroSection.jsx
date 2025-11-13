@@ -310,7 +310,7 @@ const HeroSection = () => {
               <motion.button
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => scrollToSection("work")}
+                onClick={() => scrollToSection("contact")}
                 className={` border ${
                   isDarkMode
                     ? "border-gray-700 hover:border-gray-600 text-gray-300"

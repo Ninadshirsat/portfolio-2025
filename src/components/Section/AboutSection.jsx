@@ -21,6 +21,13 @@ const AboutSection = () => {
     offset: ["start end", "end start"],
   });
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const y = useTransform(scrollYProgress, [0, 1], [50, -50]);
 
   const timelineVariants = {
@@ -282,6 +289,7 @@ const AboutSection = () => {
             <motion.button
               whileHover={{ y: -2, scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
+              onClick={() => scrollToSection("contact")}
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300 "
             >
               Let's Work Together
