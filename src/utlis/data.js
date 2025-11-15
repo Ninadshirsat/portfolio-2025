@@ -129,7 +129,7 @@ export const PROJECTS = [
     description: "Simple Website to store multiple ideas",
     image: PROJECT_IMG_5,
     tags: ["React", "JSON-Server", "Tailwindcss"],
-    liveUrl: "#",
+    liveUrl: "https://shopping-cart-ui.onrender.com/",
     githubUrl: "https://github.com/Ninadshirsat/shopping-cart-ui",
     featured: false,
     category: "Front-End",
