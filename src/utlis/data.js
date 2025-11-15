@@ -96,7 +96,7 @@ export const PROJECTS = [
       "Simple Website to store multiple notes works on the UI with localstorage",
     image: PROJECT_IMG_2,
     tags: ["React", "Vite", "LocalStorage"],
-    liveUrl: "#",
+    liveUrl: "https://notes-app-only-ui.vercel.app/",
     githubUrl: "https://github.com/Ninadshirsat/notes-app_frontend",
     featured: false,
     category: "Front-End",
