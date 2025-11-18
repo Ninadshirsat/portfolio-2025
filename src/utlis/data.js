@@ -22,9 +22,9 @@ import PROJECT_IMG_3 from "../assets/images/project-3.png";
 import PROJECT_IMG_4 from "../assets/images/project-4.png";
 import PROJECT_IMG_5 from "../assets/images/project-5.png";
 import PROJECT_IMG_6 from "../assets/images/project-6.png";
-// import PROJECT_IMG_7 from "../assets/images/project-7.png";
+import PROJECT_IMG_7 from "../assets/images/project-7.png";
 import PROJECT_IMG_8 from "../assets/images/project-8.png";
-// import PROJECT_IMG_9 from "../assets/images/project-9.png";
+import PROJECT_IMG_9 from "../assets/images/project-9.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -90,6 +90,69 @@ export const PROJECTS = [
     category: "Full Stack",
   },
   {
+    id: 6,
+    title: "Crypto-Dash",
+    description: "Website to browse through multiple crypto-currencies",
+    image: PROJECT_IMG_6,
+    tags: ["React", "React-Router", "Vite"],
+    liveUrl: "https://crypto-dash-smoky.vercel.app/",
+    githubUrl: "https://github.com/Ninadshirsat/crypto-dash",
+    featured: true,
+    category: "Front-End",
+  },
+  {
+    id: 5,
+    title: "Shopping-Cart",
+    description: "Simple Website to store multiple ideas",
+    image: PROJECT_IMG_5,
+    tags: ["React", "JSON-Server", "Tailwindcss"],
+    liveUrl: "https://shopping-cart-ui.onrender.com/",
+    githubUrl: "https://github.com/Ninadshirsat/shopping-cart-ui",
+    featured: true,
+    category: "Front-End",
+  },
+  {
+    id: 7,
+    title: "Friendly-Dev-Portfolio-Website",
+    description:
+      "This is the frontend repository for Friendly Dev, a dynamic blog platform built with React.",
+    image: PROJECT_IMG_7,
+    tags: [
+      "React",
+      "React-Router",
+      "Tailwindcss",
+      "Strapi",
+      "Cloudinary",
+      "Framer-Motion",
+    ],
+    liveUrl: "https://friendly-dev-frontend-taupe.vercel.app/",
+    githubUrl: "https://github.com/Ninadshirsat/friendly-dev-frontend",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
+    id: 8,
+    title: "Github-Finder",
+    description: "Website to search Github-Users",
+    image: PROJECT_IMG_8,
+    tags: ["React", "Tanstack-Query"],
+    liveUrl: "https://github-finder.vercel.app/",
+    githubUrl: "https://github.com/Ninadshirsat/github-finder-tanstack-query",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
+    id: 9,
+    title: "Idea Drop",
+    description: "Simple Website to store multiple ideas",
+    image: PROJECT_IMG_9,
+    tags: ["React", "Tanstack-Query", "MongoDB"],
+    liveUrl: "https://idea-drop-ui-ten.vercel.app/",
+    githubUrl: "https://github.com/Ninadshirsat/idea-drop-ui",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
     id: 2,
     title: "Notes App",
     description:
@@ -123,61 +186,6 @@ export const PROJECTS = [
     featured: false,
     category: "Front-End",
   },
-  {
-    id: 5,
-    title: "Shopping-Cart",
-    description: "Simple Website to store multiple ideas",
-    image: PROJECT_IMG_5,
-    tags: ["React", "JSON-Server", "Tailwindcss"],
-    liveUrl: "https://shopping-cart-ui.onrender.com/",
-    githubUrl: "https://github.com/Ninadshirsat/shopping-cart-ui",
-    featured: false,
-    category: "Front-End",
-  },
-  {
-    id: 6,
-    title: "Crypto-Dash",
-    description: "Website to browse through multiple crypto-currencies",
-    image: PROJECT_IMG_6,
-    tags: ["React", "React-Router", "Vite"],
-    liveUrl: "https://crypto-dash-smoky.vercel.app/",
-    githubUrl: "https://github.com/Ninadshirsat/crypto-dash",
-    featured: true,
-    category: "Front-End",
-  },
-  // {
-  //   id: 7,
-  //   title: "Friendly-Dev-Portfolio-Website",
-  //   description: "Simple Website to store multiple ideas",
-  //   image: PROJECT_IMG_0,
-  //   tags: ["React", "Tanstack-Query", "MongoDB"],
-  //   liveUrl: "#",
-  //   githubUrl: "#",
-  //   featured: false,
-  //   category: "Full Stack",
-  // },
-  {
-    id: 8,
-    title: "Github-Finder",
-    description: "Website to search Github-Users",
-    image: PROJECT_IMG_8,
-    tags: ["React", "Tanstack-Query"],
-    liveUrl: "https://github-finder.vercel.app/",
-    githubUrl: "https://github.com/Ninadshirsat/github-finder-tanstack-query",
-    featured: false,
-    category: "Full Stack",
-  },
-  // {
-  //   id: 9,
-  //   title: "Idea Drop",
-  //   description: "Simple Website to store multiple ideas",
-  //   image: PROJECT_IMG_0,
-  //   tags: ["React", "Tanstack-Query", "MongoDB"],
-  //   liveUrl: "#",
-  //   githubUrl: "#",
-  //   featured: true,
-  //   category: "Full Stack",
-  // },
 ];
 
 export const JOURNEY_STAT = [
