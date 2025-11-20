@@ -1,13 +1,6 @@
 import { useRef } from "react";
-import {
-  delay,
-  motion,
-  useInView,
-  useScroll,
-  useTransform,
-} from "framer-motion";
-import { ArrowUp, Code2, Heart, Mail } from "lucide-react";
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { ArrowUp, Code2, Heart } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 import { containerVariants, itemVariants } from "../../utlis/helper";
 import { SOCIAL_LINKS } from "../../utlis/data.js";
@@ -222,7 +215,7 @@ const Footer = () => {
                   isDarkMode ? "text-gray-500" : "text-gray-600"
                 }`}
               >
-                {new Date().getFullYear()} Ninad Shirsat. All rights reserved
+                © {new Date().getFullYear()} Ninad Shirsat. All rights reserved
               </p>
               <p
                 className={`text-xs ${

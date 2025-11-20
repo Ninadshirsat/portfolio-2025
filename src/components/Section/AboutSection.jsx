@@ -122,17 +122,20 @@ const AboutSection = () => {
                   isDarkMode ? "text-gray-300" : "text-gray-700"
                 }`}
               >
-                I belive technology should be a bridge that connects people and
-                solves real world problems. my passion is lies in crafting
-                digital experiences that are not just funtional, but delightful
-                and accessible to everyone
+                I believe technology should simplify life and create meaningful
+                impact. My mission is to build applications that are fast,
+                scalable, and truly helpful—whether it’s improving user
+                experience on the frontend or designing reliable backend systems
+                that power real-world features.
               </p>
               <p
                 className={`text-base leading-relaxed ${
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 }`}
               >
-                When I'm not coding you'll find me exploring new frameworks
+                When I’m not coding, I’m exploring new frameworks, improving
+                system design skills, and working on projects that push me to
+                become a better engineer every day.
               </p>
             </motion.div>
 
@@ -222,14 +225,14 @@ const AboutSection = () => {
                   {/* Timeline Dot */}
                   <div
                     className={`relative z-10 w-16 h-16 rounded-full
-                        ${step.color} flex flex-shrink-0 items-center justify-center group-hover:scale-110 transition-transform duration-300`}
+                        ${step.color} flex shrink-0 items-center justify-center group-hover:scale-110 transition-transform duration-300`}
                   >
                     <step.icon size={24} className="text-white" />
                   </div>
 
                   {/* Content */}
                   <div
-                    className={`flex-grow p-6 rounded-xl border transition-all duration-300 ${
+                    className={`grow p-6 rounded-xl border transition-all duration-300 ${
                       isDarkMode
                         ? "bg-gray-800/50 border-gray-700 group-hover:border-gray-600 group-hover:bg-gray-800/70"
                         : "bg-white/80 border-gray-200 group-hover:border-gray-300 group-hover:bg-white"

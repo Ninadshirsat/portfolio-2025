@@ -143,8 +143,8 @@ const HeroSection = () => {
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 } mb-8 max-w-xl mx-auto font-light leading-relaxed`}
               >
-                I craft beautiful, functional web applications with modern
-                technologies and thoughful user experience
+                I build scalable full-stack applications with clean
+                architecture, efficient APIs, and thoughtful user experience.
               </motion.p>
 
               {/* Content - Mobile */}
@@ -407,7 +407,7 @@ const HeroSection = () => {
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className={` w-80 h-96 rounded-[32px] overflow-hidden border-[1.5px] ${
+                className={` w-80 h-96 rounded-4xl overflow-hidden border-[1.5px] ${
                   isDarkMode ? "border-gray-700" : "border-gray-200"
                 } shadow-lg shadow-blue-100/30`}
               >
@@ -427,7 +427,7 @@ const HeroSection = () => {
                 }}
                 className="absolute -inset-4 rounded-3xl border border-blue-500/20 pointer-events-none"
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-blue-100/20 rounded-[32px] blur-xl pointer-events-none"></div>
+              <div className="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-blue-100/20 rounded-4xl blur-xl pointer-events-none"></div>
               <motion.div
                 animate={{ rotate: -360 }}
                 transition={{
