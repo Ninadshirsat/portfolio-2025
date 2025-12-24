@@ -320,6 +320,13 @@ const ContactSection = () => {
               to schedule a call to discuss your project.
             </p>
             <motion.button
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/ninadshirsat12/30min",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
               whileHover={{ y: -2, scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               className={`px-6 py-3 rounded-full border font-medium transition-all duration-300 ${
