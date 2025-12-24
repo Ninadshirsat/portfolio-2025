@@ -317,7 +317,7 @@ const ContactSection = () => {
               } mb-6`}
             >
               Sometimes a conversation is a worth a thousands message. Feel free
-              to schedule a call to discuss your project.
+              to schedule a Google meet to discuss your project.
             </p>
             <motion.button
               onClick={() =>
@@ -335,7 +335,7 @@ const ContactSection = () => {
                   : "border-gray-300 hover:border-blue-500 hover:text-blue-600"
               }`}
             >
-              Schedule a Call
+              Schedule a Google Meet with Me
             </motion.button>
           </motion.div>
         </motion.div>
