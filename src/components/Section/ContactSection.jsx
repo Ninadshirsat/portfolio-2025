@@ -335,7 +335,7 @@ const ContactSection = () => {
                   : "border-gray-300 hover:border-blue-500 hover:text-blue-600"
               }`}
             >
-              Schedule a Google Meet with Me
+              Schedule a Meet
             </motion.button>
           </motion.div>
         </motion.div>
