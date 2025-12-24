@@ -1,12 +1,17 @@
 import { useState, useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { Send } from "lucide-react";
+import emailjs from "@emailjs/browser";
 
 import { useTheme } from "../../context/ThemeContext.jsx";
 import { SOCIAL_LINKS, CONTACT_INFO } from "../../utlis/data.js";
 import { containerVariants, itemVariants } from "../../utlis/helper";
 import TextInput from "../Input/TextInput.jsx";
 import SuccessModel from "./SuccessModel.jsx";
+
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const ContactSection = () => {
   const { isDarkMode } = useTheme();
@@ -36,15 +41,28 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    //Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        {
+          user_name: formData.name,
+          user_email: formData.email,
+          message: formData.message,
+        },
+        PUBLIC_KEY
+      );
+      setShowSuccess(true);
+      setFormData({ name: "", email: "", message: "" });
 
-    setIsSubmitting(false);
-    setShowSuccess(true);
-    setFormData({ name: "", email: "", message: "" });
-
-    //auto hide success model after 3 seconds
-    setTimeout(() => setShowSuccess(false), 3000);
+      //auto hide success model after 3 seconds
+      setTimeout(() => setShowSuccess(false), 3000);
+    } catch (error) {
+      console.error("EmailJS Error:", error);
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
